@@ -1,3 +1,4 @@
+library('curl')
 library('jsonlite')
 library('httpuv')
 library('httr')
