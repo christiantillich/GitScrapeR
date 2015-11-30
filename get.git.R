@@ -4,7 +4,7 @@ get.git <- function(url,two.fac=0){
   #Main API call. 
   thing <- GET(
      paste("https://raw.githubusercontent.com/",url,sep="")
-    ,authenticate("christiantillich", GITHUB_TOKEN)
+    ,authenticate(GITHUB_USER, GITHUB_TOKEN)
     ,add_headers("X-GitHub-OTP" = two.fac) 
   )
   

@@ -9,7 +9,7 @@ library('dplyr')
 show.github.path <- function(url,two.fac=0){
   thing <- GET(
      paste("https://api.github.com/",url,sep="")
-    ,authenticate("christiantillich", GITHUB_TOKEN)
+    ,authenticate(GITHUB_USER, GITHUB_TOKEN)
     ,add_headers("X-GitHub-OTP" = two.fac) 
   )
   content(thing)
