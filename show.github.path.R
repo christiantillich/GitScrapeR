@@ -16,9 +16,9 @@ show.github.path <- function(url,two.fac=0){
 }
 
 #Try various paths to make sure it's working. 
-show.github.path("user")
-show.github.path("issues")
-show.github.path("user/issues")
-show.github.path("user/repos")
-show.github.path("orgs/avantcredit/issues")
+# show.github.path("user")
+# show.github.path("issues")
+# show.github.path("user/issues")
+# show.github.path("user/repos")
+# show.github.path("orgs/avantcredit/issues")
 

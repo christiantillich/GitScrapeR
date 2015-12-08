@@ -1,6 +1,6 @@
 ################################### HEADER ###################################
 
-lib <- paste0(path.projects,"/Data_Sci/Github_Scraper")
+lib <- paste0(path.git,"/Github_ScrapR")
 setwd(lib)
 source('show.github.path.R')
 source('get.git.R')

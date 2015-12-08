@@ -15,6 +15,6 @@ get.git <- function(url,two.fac=0){
     paste(collapse = " ")
 }
 
-get.git("robertzk/3chessengine/master/.gitignore")
-get.git("robertzk/3chessengine/master/README.md")
-get.git("robertzk/3chessengine/master/bower.json")
+# get.git("robertzk/3chessengine/master/.gitignore")
+# get.git("robertzk/3chessengine/master/README.md")
+# get.git("robertzk/3chessengine/master/bower.json")
