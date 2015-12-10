@@ -10,6 +10,7 @@ Description: Just some useful functions for managing a lot of github
     Git API using curl, and just a bunch of R functions built on top of that.
 License: What license is it under?
 Imports: magrittr,
+    AnaliTools,
     curl,
     httr
 LazyData: TRUE

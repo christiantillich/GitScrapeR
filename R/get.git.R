@@ -1,3 +1,8 @@
+library(curl)
+library(AnaliTools)
+library(magrittr)
+
+
 #' get.git
 #' @description Function returns the raw-text code in a specific GitHub file.
 #' @param path - The raw.githubusercontent.com path to the file. Should be similar

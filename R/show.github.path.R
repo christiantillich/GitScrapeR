@@ -2,7 +2,7 @@ library('curl')
 # library('jsonlite')
 # library('httpuv')
 library('httr')
-library('dplyr')
+library('magrittr')
 
 
 #' show.github.path
