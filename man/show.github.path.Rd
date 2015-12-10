@@ -22,6 +22,11 @@ valid token via https://github.com/settings/tokens and add this to your
 .RProfile. Alternatively, you can just use your password. However, because
 we're locked into 2-factor authentication here, I haven't tested this.}
 }
+\value{
+This function returns a list object containing everything in the
+API call. Internally, this is just content(GET(path)), with the domain and
+authentication credentials all filled out.
+}
 \description{
 Function returns the content of a github path
 }
