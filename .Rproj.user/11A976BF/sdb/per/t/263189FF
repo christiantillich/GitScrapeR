@@ -1,0 +1,17 @@
+{
+    "contents" : "Package: GitScrapeR\nType: Package\nTitle: Scraping/Searching Tools for GitHub\nVersion: 0.1\nDate: 2015-12-08\nAuthors@R: person(\"Christian\",\"Tillich\",email = \"christian.tillich.walker@gmail.com\",role = c(\"aut\", \"cre\"))\nDescription: Just some useful functions for managing a lot of github\n    dependencies. Some tools to do regex search on repos, or lists of repos, tools\n    for installing all repos under a given user, etc. At the core it's a hit to the\n    Git API using curl, and just a bunch of R functions built on top of that.\nLicense: What license is it under?\nDependencies: magrittr,\n    curl,\n    httr\nLazyData: TRUE\nRoxygenNote: 5.0.1\n",
+    "created" : 1449783722213.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "612049168",
+    "id" : "263189FF",
+    "lastKnownWriteTime" : 1449783917,
+    "path" : "~/GitScrapeR/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "dcf"
+}

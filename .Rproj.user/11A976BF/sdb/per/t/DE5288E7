@@ -1,0 +1,17 @@
+{
+    "contents" : "* using log directory 'C:/Users/ctilli82/Documents/GitScrapeR.Rcheck'\n* using R version 3.2.2 (2015-08-14)\n* using platform: x86_64-w64-mingw32 (64-bit)\n* using session charset: ISO8859-1\n* using options '--no-manual --no-build-vignettes --as-cran'\n* checking for file 'GitScrapeR/DESCRIPTION' ... OK\n* checking extension type ... Package\n* this is package 'GitScrapeR' version '0.1'\n* checking package namespace information ... OK\n* checking package dependencies ... OK\n* checking if this is a source package ... OK\n* checking if there is a namespace ... OK\n* checking for executable files ... OK\n* checking for hidden files and directories ... OK\n* checking for portable file names ... ERROR\nFound the following file with a non-portable file name:\n  GitScrapeR/man/z%__%.Rd\nThese are not valid file names on all R platforms.\nPlease rename the files and try again.\nSee section 'Package structure' in the 'Writing R Extensions' manual.\n OK\n* checking whether package 'GitScrapeR' can be installed ... ERROR\nInstallation failed.\nSee 'C:/Users/ctilli82/Documents/GitScrapeR.Rcheck/00install.out' for details.\n* DONE\nStatus: 2 ERRORs\n",
+    "created" : 1449783926474.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4282764316",
+    "id" : "DE5288E7",
+    "lastKnownWriteTime" : 1449783920,
+    "path" : "~/GitScrapeR.Rcheck/00check.log",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "text"
+}

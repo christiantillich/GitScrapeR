@@ -1,0 +1,16 @@
+Package: GitScrapeR
+Type: Package
+Title: Scraping/Searching Tools for GitHub
+Version: 0.1
+Date: 2015-12-08
+Authors@R: person("Christian","Tillich",email = "christian.tillich.walker@gmail.com",role = c("aut", "cre"))
+Description: Just some useful functions for managing a lot of github
+    dependencies. Some tools to do regex search on repos, or lists of repos, tools
+    for installing all repos under a given user, etc. At the core it's a hit to the
+    Git API using curl, and just a bunch of R functions built on top of that.
+License: What license is it under?
+Dependencies: magrittr,
+    curl,
+    httr
+LazyData: TRUE
+RoxygenNote: 5.0.1
