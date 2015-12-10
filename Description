@@ -9,7 +9,7 @@ Description: Just some useful functions for managing a lot of github
     for installing all repos under a given user, etc. At the core it's a hit to the
     Git API using curl, and just a bunch of R functions built on top of that.
 License: What license is it under?
-Include: magrittr,
+Imports: magrittr,
     curl,
     httr
 LazyData: TRUE
