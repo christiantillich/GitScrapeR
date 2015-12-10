@@ -1,4 +1,4 @@
-library(curl)
+library(httr)
 library(AnaliTools)
 library(magrittr)
 

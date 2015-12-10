@@ -1,7 +1,8 @@
-library('curl')
+
 # library('jsonlite')
 # library('httpuv')
 library('httr')
+library('curl')
 library('magrittr')
 
 
