@@ -5,7 +5,7 @@
 #' specific Github repo. Tables are joinable on issues$id = comments$issue_id,
 #' and the relationship is 1-many.
 #' @param repo.path - The api.github.com path to a single repo.
-#' @returns Function returns a list of tables, "issues" and "comments"
+#' @return Function returns a list of tables, "issues" and "comments"
 #' @export
 #' @examples issues.db("repos/avantcredit/analytics-partners")
 issues.db <- function(repo.path){

@@ -9,6 +9,9 @@ issues.db(repo.path)
 \arguments{
 \item{repo.path}{- The api.github.com path to a single repo.}
 }
+\value{
+Function returns a list of tables, "issues" and "comments"
+}
 \description{
 Creates an issues and a comments table from the path to a
 specific Github repo. Tables are joinable on issues$id = comments$issue_id,
