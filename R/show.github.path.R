@@ -1,10 +1,9 @@
 
-# library('jsonlite')
-# library('httpuv')
 library('httr')
 library('curl')
 library('magrittr')
-
+# library('jsonlite')
+# library('httpuv')
 
 #' show.github.path
 #' @description Function returns the content of a github path
