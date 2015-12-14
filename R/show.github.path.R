@@ -27,7 +27,7 @@ show.github.path <- function(
   user = getOption("GITHUB_USER"),
   pwd = getOption("GITHUB_TOKEN")
 ){
-  thing <- httr::GET(
+  thing <- GET(
      paste("https://api.github.com/",path,sep="")
     ,authenticate(user,pwd)
     ,add_headers("X-GitHub-OTP" = two.fac)
