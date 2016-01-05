@@ -17,6 +17,7 @@ issues.db <- function(repo.path){
     print(x)
     data.frame(
       id           = gsub("\\D+","",x$url)
+      ,title        = x$title
       ,author       = x$user$login
       ,created_at   = x$created_at
       ,url          = x$url
