@@ -14,7 +14,6 @@ issues.db <- function(repo.path){
 
   #Parse each issue
   issue.parse <- function(x) {
-    print(x)
     data.frame(
       id           = gsub("\\D+","",x$url)
       ,title        = x$title
