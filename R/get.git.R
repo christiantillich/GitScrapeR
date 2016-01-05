@@ -8,10 +8,8 @@ library(magrittr)
 #' @param path - The raw.githubusercontent.com path to the file. Should be similar
 #' to the path used by api.github.com
 #' @return Function returns the code as a character string
+#' @usage get.git('robertzk/3chessengine/master/bower.json')
 #' @export
-#' @examples get.git("robertzk/3chessengine/master/.gitignore")
-#' get.git("robertzk/3chessengine/master/README.md")
-#' get.git("robertzk/3chessengine/master/bower.json")
 get.git <- function(
   path,
   two.fac=0,

@@ -4,7 +4,7 @@
 \alias{install.path}
 \title{install.path}
 \usage{
-install.path(path)
+install.path('users/robertzk')
 }
 \arguments{
 \item{path}{- The api.github.com path to a user account or organization, or
@@ -17,12 +17,7 @@ so if you get errors on packages that are legit R repositories, just keep
 running this function until the error list stabilizes
 }
 \description{
-Installs every repo at a particular path, skipping over any repo
-that is not an R repo.
-}
-\examples{
-install.path('users/kirillseva')
-install.path('users/robertzk')
-install.path('users/peterhurford')
+Installs every repo at a particular user's path, skipping over
+any repo that is not an R repo.
 }
 

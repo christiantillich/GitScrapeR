@@ -10,9 +10,6 @@
 #' @return Function returns a data.frame object containing the name of the file
 #' and a 50-character-long snippet of text where the expression is found.
 #' @export
-#' @examples search.repo('repos/robertzk/3chessengine','rook')
-#' search.repo('repos/robertzk/3chessengine',"var [A-Za-z, ]+",name.regex=".js")
-#' search.repo('repos/avantcredit/analytics-partners','select','.R$',verbose=T)
 search.repo <- function(path, regex=".", name.regex='\\..+',verbose=F){
 
 
@@ -46,13 +43,10 @@ search.repo <- function(path, regex=".", name.regex='\\..+',verbose=F){
 #' troubleshooting
 #' @return Function returns a data.frame object containing the name of the file
 #' and a 50-character-long snippet of text where the expression is found.
+#' @usage
+#' paths <- c('repos/robertzk/3chessengine','repos/robertzk/testthatsomemore')
+#' search.repos(paths, regex = 'Map', '\\.R$',verbose=T)
 #' @export
-#' @examples
-#' repos <- c(
-#'    "repos/avantcredit/analytics-partners"
-#'   ,"repos/avantcredit/avant"
-#' )
-#' search.repos(repos, 'looker_query',verbose=T)
 search.repos <- function(paths, regex=".", name.regex='\\..+',verbose=F){
   lapply(paths, function(x) search.repo(x, regex, name.regex,verbose=verbose)) %>%
     do.call(rbind, .) %>%

@@ -4,7 +4,8 @@
 \alias{search.repos}
 \title{search.repos}
 \usage{
-search.repos(paths, regex = ".", name.regex = "\\\\..+", verbose = F)
+paths <- c('repos/robertzk/3chessengine','repos/robertzk/testthatsomemore')
+search.repos(paths, regex = 'Map', '\\.R$',verbose=T)
 }
 \arguments{
 \item{paths}{- A list of repos}
@@ -24,12 +25,5 @@ and a 50-character-long snippet of text where the expression is found.
 }
 \description{
 Regex search over multiple repos.
-}
-\examples{
-repos <- c(
-   "repos/avantcredit/analytics-partners"
-  ,"repos/avantcredit/avant"
-)
-search.repos(repos, 'looker_query',verbose=T)
 }
 

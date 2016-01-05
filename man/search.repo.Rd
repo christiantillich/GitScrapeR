@@ -25,9 +25,4 @@ and a 50-character-long snippet of text where the expression is found.
 \description{
 Allows regular-expression search through a single repository.
 }
-\examples{
-search.repo('repos/robertzk/3chessengine','rook')
-search.repo('repos/robertzk/3chessengine',"var [A-Za-z, ]+",name.regex=".js")
-search.repo('repos/avantcredit/analytics-partners','select','.R$',verbose=T)
-}
 

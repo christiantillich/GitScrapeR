@@ -20,6 +20,9 @@ library('magrittr')
 #' @return This function returns a list object containing everything in the
 #' API call. Internally, this is just content(GET(path)), with the domain and
 #' authentication credentials all filled out.
+#' @usage
+#' show.github.path("user")
+#' show.github.path('repos/robertzk/3chessengine')
 #' @export
 show.github.path <- function(
   path,

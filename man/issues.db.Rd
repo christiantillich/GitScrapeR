@@ -4,7 +4,7 @@
 \alias{issues.db}
 \title{issues.db}
 \usage{
-issues.db(repo.path)
+issues.db('repos/robertzk/3chessengine')
 }
 \arguments{
 \item{repo.path}{- The api.github.com path to a single repo.}
@@ -16,8 +16,5 @@ Function returns a list of tables, "issues" and "comments"
 Creates an issues and a comments table from the path to a
 specific Github repo. Tables are joinable on issues$id = comments$issue_id,
 and the relationship is 1-many.
-}
-\examples{
-issues.db("repos/avantcredit/analytics-partners")
 }
 

@@ -6,14 +6,15 @@
 #' and the relationship is 1-many.
 #' @param repo.path - The api.github.com path to a single repo.
 #' @return Function returns a list of tables, "issues" and "comments"
+#' @usage issues.db('repos/robertzk/3chessengine')
 #' @export
-#' @examples issues.db("repos/avantcredit/analytics-partners")
 issues.db <- function(repo.path){
 
   url <- paste(repo.path, 'issues?state=all', sep="/")
 
   #Parse each issue
   issue.parse <- function(x) {
+    print(x)
     data.frame(
       id           = gsub("\\D+","",x$url)
       ,author       = x$user$login

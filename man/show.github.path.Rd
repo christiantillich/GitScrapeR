@@ -4,8 +4,8 @@
 \alias{show.github.path}
 \title{show.github.path}
 \usage{
-show.github.path(path, two.fac = 0, user = getOption("GITHUB_USER"),
-  pwd = getOption("GITHUB_TOKEN"))
+show.github.path("user")
+show.github.path('repos/robertzk/3chessengine')
 }
 \arguments{
 \item{path}{- Not the full path. Just the parts after api.github.com/, e.g.

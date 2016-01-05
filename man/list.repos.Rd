@@ -4,7 +4,7 @@
 \alias{list.repos}
 \title{list.repos}
 \usage{
-list.repos(path)
+list.repos('repos/robertzk/3chessengine')
 }
 \arguments{
 \item{path}{- A user or org path, e.g. 'users/christiantillich'}
@@ -14,8 +14,5 @@ Returns a list of the full paths to any visible repo on the account.
 }
 \description{
 Lists all the repos at a given api.github.com path.
-}
-\examples{
-list.repos('users/kirillseva')
 }
 

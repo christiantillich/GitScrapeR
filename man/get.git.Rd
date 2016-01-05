@@ -4,8 +4,7 @@
 \alias{get.git}
 \title{get.git}
 \usage{
-get.git(path, two.fac = 0, user = getOption("GITHUB_USER"),
-  pwd = getOption("GITHUB_TOKEN"))
+get.git('robertzk/3chessengine/master/bower.json')
 }
 \arguments{
 \item{path}{- The raw.githubusercontent.com path to the file. Should be similar
@@ -16,10 +15,5 @@ Function returns the code as a character string
 }
 \description{
 Function returns the raw-text code in a specific GitHub file.
-}
-\examples{
-get.git("robertzk/3chessengine/master/.gitignore")
-get.git("robertzk/3chessengine/master/README.md")
-get.git("robertzk/3chessengine/master/bower.json")
 }
 
