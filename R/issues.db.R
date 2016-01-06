@@ -25,6 +25,7 @@ issues.db <- function(repo.path){
       ,closed_at    = x$closed_at %||% ""
       ,comments     = x$comments
       ,comments_url = x$comments_url
+      ,is_pull_req  = if(is.null(x$pull_request$url)){0} else(1)
     ) %>% return
   }
 
