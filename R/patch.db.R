@@ -1,4 +1,10 @@
-
+#' patch.db
+#' @description This function takes in the file generated from a 
+#' https://github.com/...repo info.../compare/...  url. 
+#' @param file.path - full path to the patch file that needs to be parsed.  
+#' @return data - returns a data frame that contains each patch diff as a 
+#' separate row entry, along with file name, path, and type info. 
+#' @export
 patch.db <- function(file.path){
   file <- readLines(file.path) %>% paste(collapse = '\\n')
   
